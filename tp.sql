@@ -7,6 +7,8 @@
     role_type(role_type_id, type_name)
 */
 
+use IMDB;
+
 -- 1:
 select movie.movie_name as Filme, person.person_name Diretora
   from role inner join person on role.person_id = person.person_id
